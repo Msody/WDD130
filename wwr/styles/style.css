@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rock+Salt&display=swap");
+:root #content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1482ff;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+nav a {
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  padding: 35px;
+}
+.home_title {
+  text-align: center;
+  font-family: "Rock Salt", Arial, Helvetica;
+  color: #8ecae6;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.headings {
+  font-family: Perpetua, "Times New Roman", Times, serif;
+}
+.home_text {
+  color: #8ecae6;
+}
+
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+main section img {
+  box-sizing: border-box;
+}
+#backround {
+  height: 725px;
+  background-color: #ffd468;
+}
+
+header {
+  background-color: #ffd468;
+}
+nav a:hover {
+  background-color: aqua;
+  color: blue;
+}
+
+.book {
+  color: yellow;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.join {
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover {
+  background-color: #023047;
+}
+.join:hover {
+  background-color: yellow;
+}
+#background {
+  background-color: yellow;
+  color: yellow;
+}
+.msg {
+  background-color: #ffd468;
+  color: #ffd468;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.home-title {
+  color: yellow;
+}
+h2 {
+  margin: 0;
+}
+h4 {
+  color: #023047;
+}
+.msg h2 {
+  color: black;
+  font-family: "Rock Salt";
+}
+.msg p {
+  color: black;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+footer {
+  background-color: #023047;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+footer h3 {
+  color: yellow;
+}
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+footer a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+.icon {
+  width: 80px;
+  color: #ffd468;
+  padding-top: 10px;
+}
+.top {
+  width: 100%;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
