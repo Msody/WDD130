@@ -40,6 +40,7 @@ nav a {
 }
 .home_text {
   color: #8ecae6;
+  font-size: 1em;
 }
 
 .button-box {
@@ -123,9 +124,6 @@ nav a:hover {
   grid-template-columns: repeat(10, 1fr);
 }
 
-.home-title {
-  color: yellow;
-}
 h2 {
   margin: 0;
 }
