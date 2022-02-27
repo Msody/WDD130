@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #8e412e;
-  --secondary-color: #f4ece2;
-  --accent1-color: #687259;
-  --accent2-color: #ba6f4d;
+  --primary-color: #202020;
+  --secondary-color: #ffee32;
+  --accent1-color: #d6d6d6;
+  --accent2-color: #ffee00;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
   --paragraph-font: Inter, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #8e412e; /* headlines on a white background */
-  --headline-color-on-color: #ba6f4d; /* headlines on a colored background */
-  --paragraph-color-on-white: #8e412e; /* paragraph text on a white background */
-  --paragraph-color-on-color: #ba6f4d; /* paragraph text on a colored background */
-  --paragraph-background-color: #8e412e;
-  --nav-link-color: #8e412e;
-  --nav-background-color: #d4ac0d;
-  --nav-hover-link-color: #ba6f4d;
-  --nav-hover-background-color: #8e412e;
+  --headline-color-on-white: #202020; /* headlines on a white background */
+  --headline-color-on-color: #ffee00; /* headlines on a colored background */
+  --paragraph-color-on-white: #202020; /* paragraph text on a white background */
+  --paragraph-color-on-color: #ffee00; /* paragraph text on a colored background */
+  --paragraph-background-color: #202020;
+  --nav-link-color: #202020;
+  --nav-background-color: #ffee32;
+  --nav-hover-link-color: #ffee00;
+  --nav-hover-background-color: #202020;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
