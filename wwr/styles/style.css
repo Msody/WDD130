@@ -206,14 +206,20 @@ footer a:hover {
 /* ---------page 2--------- */
 
 #pic {
-  width: 80%;
-  height: 500px;
-  padding-left: 125px;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 80px;
 }
 #head {
-  display: block;
   text-align: center;
 }
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat (1fr, 3fr, 1fr);
+} */
 
 @media screen and (max-width: 900px) {
   #hero,
