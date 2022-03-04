@@ -203,6 +203,18 @@ footer a:hover {
   box-shadow: 5px 5px 10px white;
 }
 
+/* ---------page 2--------- */
+
+#pic {
+  width: 80%;
+  height: 500px;
+  padding-left: 125px;
+}
+#head {
+  display: block;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
