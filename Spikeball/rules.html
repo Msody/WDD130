@@ -32,7 +32,7 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 4</div>
-          <img src="images/play1.webp" style="width: 60%" />
+          <img id="img" src="images/play1.webp" />
           <div class="text">
             2v2 team A starts a point by hitting the ball down onto the net so
             it ricochets up towards Team B.
@@ -41,7 +41,7 @@
 
         <div class="mySlides fade">
           <div class="numbertext">2 / 4</div>
-          <img src="images/play2.webp" style="width: 60%" />
+          <img id="img" src="images/play2.webp" style="width: 60%" />
           <div class="text">Caption Two</div>
         </div>
 
@@ -71,7 +71,7 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
 
-      <ol>
+      <!-- <ol>
         2v2 team A starts a point by hitting the ball down onto the net so it
         ricochets up towards Team B.
       </ol>
@@ -88,7 +88,7 @@
         touches, their opponent scores 1 point. A shot that hits the ground,
         rim, or bounces more than once on the net is no good. First team to 21
         wins!
-      </ol>
+      </ol> -->
 
       <img src="images/spikeball.jpg" alt="a spikeball" />
       <img src="images/spikeball-ppl4.jpg" alt="people playing spikeball" />
@@ -139,7 +139,7 @@
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex - 1].style.display = "block";
+      slides[slideIndex - 1].style.display = "flex";
       dots[slideIndex - 1].className += " active";
     }
   </script>
