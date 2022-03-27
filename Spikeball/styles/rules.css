@@ -1,4 +1,4 @@
-* {
+a * {
   box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #717171;
 }
 
 /* Caption text */
@@ -58,7 +58,7 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: white;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -71,7 +71,7 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #717171;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -110,5 +110,81 @@
 
 #img {
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+}
+.logo {
+  width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 35px;
+  text-decoration: underline;
+}
+nav a:hover {
+  background-color: black;
+  color: grey;
+}
+
+header {
+  background-color: #ffee32;
+  display: grid;
+  grid-template-columns: 150px auto;
+  margin-top: -10px;
+}
+footer {
+  background-color: #ffee32;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social img {
+  padding-top: 15px;
+}
+footer h3 {
+  color: black;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+.headtext {
+  font-weight: bolder;
+  font-size: larger;
+}
+.rulesimg {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 100px;
+}
+#rulespic1 {
+  grid-column: 2/3;
+  box-shadow: 5px 5px 10px #333533;
+  border: 5px solid #ffee32;
+}
+#rulespic2 {
+  grid-column: 4/5;
+  box-shadow: 5px 5px 10px #333533;
+  border: 5px solid #ffee32;
 }
